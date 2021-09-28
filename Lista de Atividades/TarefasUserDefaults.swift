@@ -18,6 +18,13 @@ class TarefaUserDefaults{
         UserDefaults.standard.set(tarefas, forKey: chave)
     }
     
+    func remover(indice:Int) {
+        tarefas = listar()
+        tarefas.remove(at: indice)
+        
+        UserDefaults.standard.set(tarefas, forKey: chave)
+    }
+    
     func listar() -> Array<String>{
         let dados = UserDefaults.standard.object(forKey: chave)
         
