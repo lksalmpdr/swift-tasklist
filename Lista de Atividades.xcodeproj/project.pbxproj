@@ -64,11 +64,11 @@
 				807193E626D9914500078F1B /* SceneDelegate.swift */,
 				80ABD1D226FD52790091E5F1 /* TarefasTableViewController.swift */,
 				80ABD1D426FD532F0091E5F1 /* CadastroViewController.swift */,
+				80ABD1D626FD577B0091E5F1 /* TarefasUserDefaults.swift */,
 				807193EA26D9914500078F1B /* Main.storyboard */,
 				807193ED26D9914700078F1B /* Assets.xcassets */,
 				807193EF26D9914700078F1B /* LaunchScreen.storyboard */,
 				807193F226D9914700078F1B /* Info.plist */,
-				80ABD1D626FD577B0091E5F1 /* TarefasUserDefaults.swift */,
 			);
 			path = "Lista de Atividades";
 			sourceTree = "<group>";
