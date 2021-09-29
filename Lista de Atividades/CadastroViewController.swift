@@ -17,6 +17,7 @@ class CadastroViewController: UIViewController {
             let tarefa = TarefaUserDefaults()
             tarefa.salvar(textoNovaTarefa)
             novaTarefa.text = ""
+            navigationController?.popViewController(animated: true)
         }
     }
 
